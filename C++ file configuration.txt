@@ -1,0 +1,43 @@
+This code is used to configure the libraries when you use the C++ files and download them, 
+the main purpose is to prevent the files from disappearing when you log in again to the experimental platform 
+(e.g. ssh), this configuration code keeps the files permanently existing.
+Created by Xudong Li on 11.2024.
+
+
+
+
+
+
+nano ~/.bashrc
+
+export PATH="$HOME/local/bin:$PATH"
+export LD_LIBRARY_PATH="$HOME/local/lib:$LD_LIBRARY_PATH"
+
+source ~/.bashrc
+
+
+
+nano ~/.profile
+
+export PATH="$HOME/local/bin:$PATH"
+export LD_LIBRARY_PATH="$HOME/local/lib:$LD_LIBRARY_PATH"
+
+source ~/.profile
+
+
+
+
+nano ~/.zshrc
+
+export PATH="$HOME/local/bin:$PATH"
+export LD_LIBRARY_PATH="$HOME/local/lib:$LD_LIBRARY_PATH"
+
+source ~/.zshrc
+
+
+nano ~/.bash_profile
+
+export PATH="$HOME/local/bin:$PATH"
+export LD_LIBRARY_PATH="$HOME/local/lib:$LD_LIBRARY_PATH"
+
+source ~/.bash_profile

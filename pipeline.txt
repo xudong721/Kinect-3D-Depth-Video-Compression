@@ -1,0 +1,12 @@
+Usage: images_exploder <input_folder> <output_folder_basename> [-l <min_cut> <max_cut> <layers_number>]
+
+./images_exploder  ../example_dataset layered/example_dataset_idmap -l 500 5000 6
+
+
+Usage: encode_and_decode.sh <layers_basename> <videos_folder> <decode_folder> <layers_number> <quality_profile>
+
+./encode_and_decode_layers.sh layered/example_dataset_idmap videos decoded 6 24
+
+Usage: images_reconstruction <images_folders_basename> <output_folder>
+
+./images_reconstruction  decoded/example_dataset_idmap reconstructed

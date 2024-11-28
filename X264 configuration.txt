@@ -1,0 +1,6 @@
+This code is used to support mp4 output when you configure the environment after downloading and installing x264. 
+Created by Xudong Li on 11.2024.
+
+
+
+./configure --prefix=$PWD/_install --disable-asm --enable-shared --enable-static --host=arm-none-linux-gnueabi
